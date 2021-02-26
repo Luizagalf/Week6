@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table6</title>
+    <style>
+
+        .container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 10% 1fr 10%;
+        height: 90vh;
+        }
+
+        .header, .footer {
+        background-color: #e0e0e0;
+        grid-column: 1/3;        
+        }
+
+        .main {
+        background-color: #fef8e3;
+        }
+
+        body {
+          
+          margin: 0;
+          padding: 0;
+        }
+
+        h1, p {
+      
+        }
+
+        .aside {
+        background-color: #ddeccb;
+        
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">Header</header>
+        <main class="main">
+            <h1>Homework</h1>
+            <div class="containerm">
+            <p class="cell cell-1">Unit1</p>
+            <p class="cell cell-2">Unit2</p>
+            <p class="cell cell-3">Unit3</p>
+            </div>
+        </main>
+        <aside class="aside">Aside</aside>
+        <footer class="footer">
+            <div class="containerf">
+            <p class="flexp2">Footer1</p>
+            <p class="flexp2">Footer2</p>
+            <p class="flexp2">Footer3</p>
+            <p class="flexp2">Footer4</p>
+            </div>
+        </footer>
+
+</div>
+</body>
+
+</html>
