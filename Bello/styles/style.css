@@ -1,0 +1,141 @@
+.header {
+    display: grid;
+    grid-template-columns: 200px 5fr 6.5fr 1fr 260px;
+    align-items: center;
+    height: 105px;
+    border-bottom: 4px solid #F8F8F8;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.menu {
+    text-decoration: none;
+    color: black !important;
+    font-family: Work Sans;
+    font-style: normal;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+.text {
+    font-family: Work Sans;
+    font-style: normal;
+    color: black;
+}
+
+.cellhb {
+    padding: 10px;
+    margin-right: 60px;
+    background-color: white;
+}
+
+.main1 {
+    display: grid;
+    height: 775.38px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1text {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 38px;
+}
+
+.main2 {
+    display: grid;
+    height: 645px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F5F2;
+}
+
+.main2text {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-right: 170px;
+}
+
+.main3 {
+    display: grid;
+    height: 822px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3text {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 200px;
+}
+
+.imgm2 {
+    margin-left: 170px;
+}
+
+.imgm3 {
+    margin-right: 170px;
+}
+
+.logo {
+    margin-left: 60px;
+}
+
+#cellmb {
+    font-family: Work Sans;
+    font-style: normal;
+    font-size: 18px;
+    height: 61px;
+    background: #F46752;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    width: 220px;
+    animation-name: cellmb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cellmb {
+    from {
+        background-color: #F46752;
+    }
+
+    to {
+        background-color: #d32e09;
+    }
+}
+
+.cellm2b {
+    font-family: Work Sans;
+    font-style: normal;
+    font-size: 18px;
+    color: #126F86;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 50% 200px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+    height: 80px;
+    font-size: 16px;
+}
+
+.cellfb {
+    padding: 10px;
+    background-color: white;
+}
