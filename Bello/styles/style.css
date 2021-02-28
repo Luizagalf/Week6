@@ -1,19 +1,32 @@
 .header {
     display: grid;
-    grid-template-columns: 200px 5fr 6.5fr 1fr 260px;
-    align-items: center;
+    grid-template-columns: 70% 30%;
     height: 105px;
     border-bottom: 4px solid #F8F8F8;
+    align-items: center;
     justify-content: space-between;
     font-size: 16px;
+}
+
+.header1 {
+    display: grid;
+    grid-template-columns: 15% 40%;
+    align-items: center;
 }
 
 nav {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     align-items: center;
-    justify-content: space-between;
     font-size: 16px;
+}
+
+.header2 {
+    display: grid;
+    grid-template-columns: 20% 30%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 140px;
 }
 
 .menu {
@@ -35,7 +48,7 @@ nav {
 
 .cellhb {
     padding: 10px;
-    margin-right: 60px;
+    width: 200px;
     background-color: white;
 }
 
@@ -137,5 +150,6 @@ nav {
 
 .cellfb {
     padding: 10px;
+    width: 200px;
     background-color: white;
 }
